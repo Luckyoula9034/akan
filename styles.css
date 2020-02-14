@@ -25,20 +25,7 @@ body{
     border-radius: 3px;
     box-sizing: border-box;
   }
-/* #btn{
-    width: 55px;
-    padding: 1px 2px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid black;
-    border-radius: 3px;
-    box-sizing: border-box;
-    background-color: blueviolet;
-    top: 50%;
-    bottom: 50%;
-    transform: translate(-50%,-50%);
 
-} */
 #btn{
     text-align: center;
 }
