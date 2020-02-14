@@ -1,0 +1,44 @@
+body{
+    background-image: url(https://bit.ly/31QGhrZ);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#form{
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+#date, #month, #year,#gender{
+    width: 100%;
+    padding: 12px 6px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+/* #btn{
+    width: 55px;
+    padding: 1px 2px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: blueviolet;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%,-50%);
+
+} */
+  #btn{
+      text-align: center;
+  }
