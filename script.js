@@ -32,6 +32,8 @@ function generateName(){
 
     var genders =document.getElementById("gender")
     var gender =gender.options[genders.selectedIndex].text;
+
     
+
 
 }
