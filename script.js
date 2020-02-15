@@ -25,9 +25,13 @@ else{
 function generateName(){
     var date =document.getElementById("date").value;
     var month =document.getElementById("month").value;
-    var year =document.getElementById("year").value;
+    var yearOfBirth =document.getElementById("year").value;
     var century=year.slice(0,2);
 
-    var year=year.slice(2,4);
+    var yearOfBirth=year.slice(2,4);
+
+    var genders =document.getElementById("gender")
+    var gender =gender.options[genders.selectedIndex].text;
+    
 
 }
