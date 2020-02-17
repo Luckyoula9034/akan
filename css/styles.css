@@ -36,11 +36,14 @@ body{
     text-align: center;
 }
 .jumbotron{
-    color:#fcba03 ;
+    color:#ce1515 ;
     background-image: url(https://bit.ly/2UT8c9v);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
+
+
 
 
