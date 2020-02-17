@@ -1,33 +1,31 @@
 ## Project Name
- Akan
+ - Akan
  ## Project Author
- Lucky Ogumbo Oula
+- Lucky Ogumbo Oula
  ## Project Description
- This application is used to generate the Akan name for the end user.
+ - This application is used to generate the Akan name for the end user.
  ## Languages Used
- HTML.
- CSS.
- Java script.
- Markdown.
+- HTML.
+- CSS.
+- Java script.
+- Markdown.
  ### Technical Requirements
- You need to have internet on your pc or desktop to run the web site
+ - You need to have internet on your pc or desktop to run the web site
  You need to have a github account
  
  ## Live Link
- Click to get my Github link
- https://luckyoula9034.github.io/akan/
+ - Click to get my Github link
+ - https://luckyoula9034.github.io/akan/
  ## BDD
- The application requires the user to fill in their details in a form: ie Enter their date of birth and choose their their gender.
-The application calculates the day of the week the user was born and outputs it.
-The application matches the day of the week with a specific Akan Name and outputs it to the user with a personalized message.
+ - The application requires the user to fill in their details in a form: ie Enter their date of birth and choose their their gender.
+- The application calculates the day of    
+the week the user was born and outputs it.
+- The application matches the day of the week with a specific Akan Name and outputs it to the user with a personalized message.
 
 ## Contact Details
-<br>
-Email:luckyoula@gmail.com
-<br>
-Phone-No:0759099034
-<br>
-Github:luckyoula9034
+- Email:luckyoula@gmail.com
+- Phone-No:0759099034
+- Github:luckyoula9034
  
 
  ## Copyright and Licence infomation
