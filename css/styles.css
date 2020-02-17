@@ -16,7 +16,7 @@ body{
     background-color: #f2f2f2;
     padding: 20px;
 }
-#date, #month, #year,#gender{
+#date, #month, #year{
     width: 100%;
     padding: 12px 6px;
     margin: 8px 0;
@@ -26,6 +26,8 @@ body{
     box-sizing: border-box;
   }
 
-#btn{
+#label{
+    margin-right: 26px;
+    margin-left: 26px;
     text-align: center;
 }
