@@ -22,8 +22,11 @@ The application calculates the day of the week the user was born and outputs it.
 The application matches the day of the week with a specific Akan Name and outputs it to the user with a personalized message.
 
 ## Contact Details
+<br>
 Email:luckyoula@gmail.com
+<br>
 Phone-No:0759099034
+<br>
 Github:luckyoula9034
  
 
