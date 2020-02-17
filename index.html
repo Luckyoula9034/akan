@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>Akant</title>
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
@@ -19,27 +21,35 @@
             </div>
 
         </div>
-
-
-        <form id="form" method="POST">
-            <input type="number" placeholder="Enter date" id="date" required>
-            <input type="number" placeholder=" Enter month" id="month" required>
-            <input type="number" placeholder="Enter year" id="year" required>
-
-            <select placeholder id=" Enter gender" required>
-                <option value="female">female</option>
-                <option value="male">male</option>
-            </select>
-            <br>
-            <div id="btn">
-
-                <button type="submit" value="submit" id="submitbutton" class="btn btn-primary" onclick="generateName(); verify();return false">Submit</button>
-            </div>
-
+        <form>
+            <h2>GET TO KNOW YOUR AKAN NAME BY FILLING THE FORM BELOW</h2 id="tit">
+          <div class="ku">
+              <div>
+                <label>Year Born:</label><br>
+                  <input type="text" id="year" placeholder="Year born" minlength="4" maxlength="4" step="1" required ><br>
+                </div>
+                <div>
+                <label>Month Born:</label><br>
+                  <input type="text" id="month" placeholder="Month born" required><br>
+                </div>
+                <div>
+                  <label>Day Born:</label><br>
+                  <input type="text" id="day" placeholder="Day born" required><br>
+                </div>
+                <div>
+                  <label>Gender</label><br>
+                  <input type="radio" id="gender" name="gender" value="male">Male<br>
+                  <input type="radio" id="gender" name="gender" value="female">Female<br>
+                  <input type="submit" onclick="giveAkanName()" value="Submit">
+                </div>
+          </div>
         </form>
+      
+
     </div>
 
 </body>
-<script src="script.js"></script>
+
+<script src='js/script.js'></script>
 
 </html>
