@@ -18,15 +18,15 @@ var dayOfTheWeek = [
   "Saturday"
 ];
 function giveAkanName() {
-  var year = parseInt(document.getElementById("year").value);
-  var month = parseInt(document.getElementById("month").value);
-  var day = parseInt(document.getElementById("day").value);
+  var year = document.getElementById("year").value;
+  var month = document.getElementById("month").value;
+  var day = document.getElementById("day").value;
   var gender = getGender();
   var date = new Date(year + "/" + month + "/" + day);
   var dayBorn = date.getDay();
   var akanName;
   var validate = year > 0 && month > 0 && month <= 12 && day > 0 && day <= 31;
-  var validateGender = gender !== "male" && gender !== "female";
+  
   if (year <= 0 || year > 2020) {
     alert("Invalid year");
   } else if (month <= 0 || month > 12) {
